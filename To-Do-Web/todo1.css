@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}    
+.upper-container{
+    width: 80%;
+    height: 100%;
+    margin:50px auto;
+    position: relative;
+    
+}
+
+.upper-container1{
+    width: 80%;
+    height: 400vh;
+    padding-top: 20%;
+    
+    
+}
+#task1{
+    font-weight: bold;
+    font-size: 2.5rem;  
+    color: #424242;
+   
+    
+}
+#list{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00A5EC 
+}
+.upper-container2{
+    width:50%;
+    height: 150vh;
+    padding-top: 10%;
+    position: absolute;
+    top: 0px;
+    right: 0px;  
+   
+    
+    
+}
+.circle{
+    padding-left: 42%;
+    color: #00A5EC;
+   
+}    
+.add{
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    right: 0;
+    position: absolute;
+    font-size: 25px;
+    padding-top:132px;
+    padding-left: 200px;
+    color: #424242;
+}
+
+.card1{
+    
+    border: 2px solid #EDEDED;
+    height: 45vh;
+    max-width: 50%;
+    margin-left: -100%;
+    border-radius: 10px;
+    top: 50px;
+    position: relative; 
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+/* .card1:hover{
+    box-shadow: 3px 3px 5px 5px lightgrey;
+} */
+.div1{
+    top: 10px;
+    position: absolute;
+    left: 20px;
+    width: 282px;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+    color: #00A5EC;
+    height: 15%;
+   
+}   
+.div2{
+    top: 85px;
+    position: absolute;
+    left: 20px;
+    width: 90%;
+    font-size: 15px;
+    color: grey;
+    height: 10%;
+    text-decoration: line-through;
+    opacity: 0.5;
+
+}
+#check1{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    opacity: 0.5;
+}
+.div3{
+    position: absolute;
+    top: 50%;    
+    left: 20px;
+    width: 85%;
+    height: 10px;
+    font-size: 15px;
+    color: #424242;
+    
+}
+#check2{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+}
+/* card2 */
+.card2{
+    
+    border: 2px solid #EDEDED;
+    height: 45vh;
+    max-width: 50%;
+    margin-left: -40%;
+    margin-top: -55%;
+    border-radius: 10px;
+    top: 50px;
+    position: relative;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    
+    
+}
+.card2:hover{
+    /* box-shadow: 3px 3px 5px 5px lightgrey; */
+}
+.div1{
+    top: 10px;
+    position: absolute;
+    left: 20px;
+    width: 282px;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+    color: #00A5EC;
+    height: 15%;
+}
+.div2{
+    top: 85px;
+    position: absolute;
+    left: 20px;
+    width: 90%;
+    font-size: 15px;
+    color: grey;
+    height: 10%;
+    text-decoration: line-through;
+    opacity: 0.5;
+
+}
+#check1{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    opacity: 0.5;
+}
+.div3{
+    position: absolute;
+    top: 50%;    
+    left: 20px;
+    width: 85%;
+    height: 10px;
+    font-size: 15px;
+    color: #424242;
+}
+#check2{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+}
+/* card3 */
+.card3{
+    
+    border: 2px solid #EDEDED;
+    height: 45vh;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-top: -55%;
+    border-radius: 10px;
+    top: 50px;
+    position: relative;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    
+    
+}
+.card3:hover{
+    /* box-shadow: 3px 3px 5px 5px lightgrey; */
+}
+.div1{
+    top: 10px;
+    position: absolute;
+    left: 20px;
+    width: 282px;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+    color: #00A5EC;
+    height: 15%;
+}
+.div2{
+    top: 85px;
+    position: absolute;
+    left: 20px;
+    width: 90%;
+    font-size: 15px;
+    color: grey;
+    height: 10%;
+    text-decoration: line-through;
+    opacity: 0.5;
+
+}
+#check1{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    opacity: 0.5;
+}
+.div3{
+    position: absolute;
+    top: 50%;    
+    left: 20px;
+    width: 85%;
+    height: 10px;
+    font-size: 15px;
+    color: #424242;
+}
+#check2{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+}
+/* card4 */
+.card4{
+    
+    border: 2px solid #EDEDED;
+    height: 45vh;
+    max-width: 50.5%;
+    margin-left: -100%;
+    margin-top: 08%;
+    border-radius: 10px;
+    top: 50px;
+    position: relative;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    
+    
+}
+.card4:hover{
+    /* box-shadow: 3px 3px 5px 5px lightgrey; */
+}
+.div1{
+    top: 10px;
+    position: absolute;
+    left: 20px;
+    width: 282px;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+    color: #00A5EC;
+    height: 15%;
+}
+.div2{
+    top: 85px;
+    position: absolute;
+    left: 20px;
+    width: 90%;
+    font-size: 15px;
+    color: grey;
+    height: 10%;
+    text-decoration: line-through;
+    opacity: 0.5;
+
+}
+#check1{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    opacity: 0.5;
+}
+.div3{
+    position: absolute;
+    top: 50%;    
+    left: 20px;
+    width: 85%;
+    height: 10px;
+    font-size: 15px;
+    color: #424242;
+}
+#check2{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+}
+/* card5 */
+.card5{
+    border: 2px solid #EDEDED;
+    height: 45vh;
+    max-width: 50.5%;
+    margin-left: -40%;
+    margin-top: -55%;
+    border-radius: 10px;
+    top: 50px;
+    position: relative;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    
+    
+}
+.card5:hover{
+    /* box-shadow: 3px 3px 5px 5px lightgrey; */
+}
+.div1{
+    top: 10px;
+    position: absolute;
+    left: 20px;
+    width: 282px;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+    color: #00A5EC;
+    height: 15%;
+}
+.div2{
+    top: 85px;
+    position: absolute;
+    left: 20px;
+    width: 90%;
+    font-size: 15px;
+    color: grey;
+    height: 10%;
+    text-decoration: line-through;
+    opacity: 0.5;
+
+}
+#check1{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    opacity: 0.5;
+}
+.div3{
+    position: absolute;
+    top: 50%;    
+    left: 20px;
+    width: 85%;
+    height: 10px;
+    font-size: 15px;
+    color: #424242;
+}
+#check2{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+}
+.notsure{
+    opacity: 0.4;
+    
+}
+.pop-up{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    height: 35vh;
+    width: 31%;
+    border: 1px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 17px;
+    background-color: #FFFFFF;
+    
+}
+#add{
+    font-weight: 600;
+    font-size: 18px;
+}
+.pop-up:hover{
+    box-shadow: 6px 6px 10px 10px grey;
+}
+.material-icons{
+    position: absolute;
+    padding-left: 410px;
+    top: 4%;
+    color: black;
+}
+#task{
+    padding-top: 14px;
+    padding-left: 10px;
+    left: 30px;
+    position: absolute;
+    top: 35%;
+    border-radius: 7px;
+    background-color: white;
+    opacity: 0.8;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+    width: 90%;
+    
+}
+.pop-up-button{
+    position: absolute;
+    top: 65%;
+    left: 69%;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    background-color: #00A5EC;
+    opacity: 0.8;
+    font-size: 14px;
+    color: white;
+    border: 0px solid ;
+}    
